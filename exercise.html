@@ -28,8 +28,9 @@
         <fo>
             <li>Delivery date filter for an application, that cannot select previous date past today's date.</li>
             <!--ANWER HERE-->
+            <!-- 1pt, no name attribute, no backend payload -->
             <form action="action.php" method="POST">
-                <input type="date" id="date" min="2023-09-16">
+                <input type="date" id="date" min="2023-09-16" name="delivery-date">
                 <input type="submit" value="Submit"></form>
             <!--END ANWER HERE-->
 
@@ -48,6 +49,7 @@
                         <li>Vietname</li>
                     </ul>
             <!--ANWER HERE-->
+            <!-- 3pt -->
             <form action="action.php" method="POST">
             <select name="Southeast" id="Southeast">
                 <option value="">Burma</option>
@@ -74,6 +76,7 @@
                     <li>Onion</li>
                 </ul>
             <!--ANWER HERE--> 
+            <!-- 3pt -->    
             <form action="action.php" method="post">
                 <input type="checkbox" name="fresh-celery"><label for="fresh-celery">Fresh Celery</label>
                 <input type="checkbox" name="skim-milk"><label for="skim-milk">Skim Milk</label>
@@ -86,6 +89,7 @@
 
             <li>An input field to select whether a user is an administrator or not? (Boolean)</li>    
             <!--ANWER HERE--> 
+            <!-- 3pt -->
             <form action="action.php" method="POST">
             <input type="checkbox" name="admin" value="1"><label for="admin">Admin</label>
             <input type="hidden" name="usertype" value="admin">
@@ -94,6 +98,7 @@
 
             <li>An input field to upload one or more audio related files(like mp3, wav, ogg, m4a)</li>
             <!--ANWER HERE--> 
+            <!-- 3pt -->
             <form action="action.php" method="POST">
             <input type="file" name="audio" id="audio" accept=".mp3,.wav.ogg,.m4a">
             <input type="submit" value="Submit"></form>
@@ -126,6 +131,7 @@
             </tr>
         </table>-->
         <!--ANWER HERE-->
+        <!-- 13pts -->
         <table style="border-collapse: collapse;">
             <tr style="border: 2px solid black; background: gray;">
             <td align = "center" rowspan = 2>Time</td>
@@ -171,7 +177,7 @@
                 <td align ="right">9:00-9:30</td>
                  <td style="border: 1px solid black;"></td>
                  <td style="border: 1px solid black;"></td>
-                 <td align="center" rowspan = 5 style="border: 1px solid black;">NETWORK<br>MGMT</td>
+                 <td align="center" rowspan = 6 style="border: 1px solid black;">NETWORK<br>MGMT</td> <!--APPLY ADJUSTMENT HERE-->
             </tr>
             <tr style="border: 1px solid black;">
                 <td align ="right">9:30-10:00</td>
@@ -196,7 +202,6 @@
             </tr>
             <tr style="border: 1px solid black;">
                 <td align ="right">11:30-12:00</td>
-                 <td style="border: 1px solid black;"></td>
                  <td style="border: 1px solid black;"></td>
                  <td style="border: 1px solid black;"></td>
                  <td style="border: 1px solid black;"></td>
